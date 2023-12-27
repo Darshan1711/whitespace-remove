@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+}
+
+h2{
+    margin: revert;
+}
+
+p{
+    margin: revert;
+}
+
+#f1{    
+    height: 30px;
+    width: 221px;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+
+button{
+    width: 136px;
+    height: 30px;
+}

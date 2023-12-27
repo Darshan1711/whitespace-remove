@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Remove Whitespaces</title>
+</head>
+<body>
+    <div class="main">
+    <div class="header">
+        <h2>White space Remover</h2>
+        <p>Enter text: </p>
+    </div>
+
+ <div class="in">
+    <input type="text" id="f1"><br><br>
+    <button onclick="join()">Remove Whitespaces</button>
+    <p id="s1"></p>
+</div>
+</div>
+
+<script>
+    function join(){
+        let first = document.getElementById("f1").value;
+        let second = first.replace(/\s+/g,'');
+        document.getElementById("s1").innerHTML = `Result: ${second}`;
+    }
+</script>
+</body>
+</html>
